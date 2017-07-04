@@ -17,13 +17,8 @@
 }
 
 - (void)hw_bindViewModel{
-    
-    RAC(self.titleLabel, text) = RACObserve(self, viewModel.title2);
-    RAC(self.subTitleLabel, text) = RACObserve(self, viewModel.subTitle2);
-    
-//    [RACObserve(self, viewModel.title2) subscribeNext:^(id x) {
-//
-//    }];
+    RAC(self.titleLabel, text) = RACObserve(self, viewModel.title);
+    RAC(self.subTitleLabel, text) = RACObserve(self, viewModel.subTitle);
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
