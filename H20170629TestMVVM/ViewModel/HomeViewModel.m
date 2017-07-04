@@ -10,26 +10,21 @@
 
 @implementation HomeViewModel
 
-- (void)setModel:(HomeModel *)model{
-    
-    _model = model;
-    [_model addObserver:self forKeyPath:@"title" options:NSKeyValueObservingOptionNew | NSKeyValueObservingOptionInitial context:@"1"];
-    [_model addObserver:self forKeyPath:@"subTitle" options:NSKeyValueObservingOptionNew | NSKeyValueObservingOptionInitial context:@"2"];
-}
-
-- (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary<NSKeyValueChangeKey,id> *)change context:(void *)context{
- 
-    if (context == @"1") {
-        _title2 = change[NSKeyValueChangeNewKey];
-    } else {
-        _subTitle2 = change[NSKeyValueChangeNewKey];
+- (instancetype)init{
+    if (self = [super init]) {
+        [self hw_bindModel];
     }
+    return self;
 }
 
-- (void)dealloc{
+- (void)hw_bindModel{
+    [RACObserve(self, model.title) subscribeNext:^(id x) {
+        self.title = x;
+    }];
     
-    [_model removeObserver:self forKeyPath:@"title"];
-    [_model removeObserver:self forKeyPath:@"subTitle"];
+    [RACObserve(self, model.subTitle) subscribeNext:^(id x) {
+        self.subTitle = x;
+    }];
 }
 
 @end

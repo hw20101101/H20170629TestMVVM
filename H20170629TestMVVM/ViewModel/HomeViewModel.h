@@ -12,7 +12,7 @@
 @interface HomeViewModel : NSObject
 
 @property (nonatomic, strong) HomeModel *model;
-@property (nonatomic, strong) NSString *title2;
-@property (nonatomic, strong) NSString *subTitle2;
+@property (nonatomic, strong) NSString *title;
+@property (nonatomic, strong) NSString *subTitle;
 
 @end
