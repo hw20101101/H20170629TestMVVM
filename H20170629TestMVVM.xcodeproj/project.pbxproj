@@ -20,6 +20,7 @@
 		C5F70A611F04FB8A00E5C58B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5F70A601F04FB8A00E5C58B /* Assets.xcassets */; };
 		C5F70A641F04FB8A00E5C58B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5F70A621F04FB8A00E5C58B /* LaunchScreen.storyboard */; };
 		C5F70A671F04FB8A00E5C58B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F70A661F04FB8A00E5C58B /* main.m */; };
+		DA6488CD21155B5B003DB61D /* ExportOptions.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA6488CC21155B5B003DB61D /* ExportOptions.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		C5F70A631F04FB8A00E5C58B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C5F70A651F04FB8A00E5C58B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5F70A661F04FB8A00E5C58B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DA6488CC21155B5B003DB61D /* ExportOptions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ExportOptions.plist; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				C5F70A601F04FB8A00E5C58B /* Assets.xcassets */,
 				C5F70A621F04FB8A00E5C58B /* LaunchScreen.storyboard */,
 				C5F70A651F04FB8A00E5C58B /* Info.plist */,
+				DA6488CC21155B5B003DB61D /* ExportOptions.plist */,
 				C5F70A661F04FB8A00E5C58B /* main.m */,
 				C5A29A781F0B3CB900C2CAF8 /* PrefixHeader.pch */,
 			);
@@ -219,6 +222,7 @@
 				C5F70A5F1F04FB8A00E5C58B /* Main.storyboard in Resources */,
 				C5ADF81F1F064DAC000D3A5D /* HomeViewCell.xib in Resources */,
 				C5ADF81A1F064CFF000D3A5D /* HomeViewController.xib in Resources */,
+				DA6488CD21155B5B003DB61D /* ExportOptions.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

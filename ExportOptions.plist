@@ -12,7 +12,7 @@
 		<string>CHANGEX_Development</string>
 	</dict>
 	<key>signingCertificate</key>
-	<string>FC894A6A26C0D7948F11566743A56F45E944411B</string>
+	<string>iPhone Developer</string>
 	<key>signingStyle</key>
 	<string>manual</string>
 	<key>stripSwiftSymbols</key>
