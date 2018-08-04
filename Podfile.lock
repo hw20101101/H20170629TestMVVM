@@ -10,9 +10,13 @@ PODS:
 DEPENDENCIES:
   - ReactiveCocoa (~> 2.5)
 
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ReactiveCocoa
+
 SPEC CHECKSUMS:
   ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
 
 PODFILE CHECKSUM: 1d53b6e6965eb5753f4684df0f796db80f59a1fe
 
-COCOAPODS: 1.2.1
+COCOAPODS: 1.5.3
