@@ -189,7 +189,7 @@
 				TargetAttributes = {
 					C5F70A531F04FB8A00E5C58B = {
 						CreatedOnToolsVersion = 9.0;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -420,9 +420,10 @@
 			baseConfigurationReference = 3D2C3E2AC542CDAC2FE0E017 /* Pods-H20170629TestMVVM.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 97X6S8XYUY;
 				GCC_PREFIX_HEADER = H20170629TestMVVM/PrefixHeader.pch;
 				INFOPLIST_FILE = H20170629TestMVVM/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
@@ -439,9 +440,10 @@
 			baseConfigurationReference = 4CA366ACBD6B2E00088E325B /* Pods-H20170629TestMVVM.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 97X6S8XYUY;
 				GCC_PREFIX_HEADER = H20170629TestMVVM/PrefixHeader.pch;
 				INFOPLIST_FILE = H20170629TestMVVM/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
